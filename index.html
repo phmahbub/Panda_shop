@@ -8,7 +8,8 @@
   <title>Panda</title>
   <link rel="icon" type="image/x-icon" href="images/panda.ico">
   <!----------------------- Bootstrap link  -------------------------->
-  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+ <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <!--------------------- fontawesome icon -------------------------------------->
   <script src="https://kit.fontawesome.com/7eacae5530.js" crossorigin="anonymous"></script>
   <!---------------------- bootstrap icon cdn  --------------------------------->
@@ -21,7 +22,7 @@
 </head>
 
 
-<body class="">
+<body class="position-relative">
   <!--------------------- navigation bar start ------------------->
   <header class="container">
     <nav class="navbar navbar-expand-lg  fixed-top container bg-white">
@@ -51,7 +52,6 @@
       </div>
     </nav>
   </header><br>
-  
   <!--------------------- navigation bar end ------------------->
 
   <!--------------------- carousel start ------------------->
@@ -121,7 +121,26 @@
     </button>
   </div>
   <!--------------------- carousel end ------------------->
+  <!-- offer -->
+  <main class="offer-section container position-relative">
+    <section class="row align-items-center justify-content-between my-5">
+      <div class="offer-image col-12 col-sm-6 " >
+        <img class="img-fluid  rounded-circle" src="images/mm01.jpg" alt="">
+      </div>
+      <div class="offer-description col-12 col-sm-6">
+        <p class="h1">Every Moment is Precious</p>
+        <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsum sunt labore doloremque facere modi ipsa asperiores quaerat explicabo natus rem voluptatum adipisci minus porro dicta odio iure quisquam et officia saepe, qui delectus! Molestiae provident vero, fugiat voluptates neque aspernatur iusto ducimus itaque! Est obcaecati repellendus soluta consectetur architecto.</p>
+        <button class="btn bg-info text-white" type="button">Explore our album &rarr;</button>
+      </div>
 
+    </section>
+    <!-- <div class="offer position-absolute bottom-50 end-0">
+      <div class="border-start border-5 border-primary bg-light  d-flex align-items-center" style="width: 245px; height: 40px;>
+      <p class=" d-inline" > <i class="bi bi-gift px-2"></i>20% off for the first order.<i class="bi bi-x"></i></p>
+    </div> -->
+  </main>
+  <!-- offer -->
+  
   <!--------------------- Product Catagories Start ------------------->
   <main class="container">
     <section>
@@ -414,15 +433,27 @@
   </section>
   <!--------------------- Subscription End ------------------->
 
+  <!-- offer-closebutton-sticky on page start  -->
   
+    <!-- <div class="offer">
+      <div class=" bg-warning rounded d-flex align-items-center" style="width: 245px; height: 30px;>
+      <p class="border-start border-4 border-primary d-inline " > <i class="bi bi-gift px-2"></i>20% off for the first order.<i class="bi bi-x"></i></p>
+    </div> -->
+  
+  <!-- offer-closebutton-sticky on page end  -->
   <!--------------------- Footer Start ------------------->
   <footer>
     <p class=" mt-5 bg-light d-flex align-items-center justify-content-center" style="height:100px"><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
   </footer>
   <!--------------------- Footer End ------------------->
+  <div class="offer position-fixed bottom-50 end-0">
+    <div class="border-start border-5 border-primary bg-light  d-flex align-items-center" style="width: 245px; height: 40px;>
+    <p class=" d-inline" > <i class="bi bi-gift px-2"></i>20% off for the first order.<i class="bi bi-x"></i></p>
+  </div>
   
   <!------------------------ Bootstrap Js ------------------------->
-  <script src="bootstrap/bootstrap.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>
