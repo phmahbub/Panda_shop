@@ -428,19 +428,49 @@
         <div class="form-group">
           <input type="email" class="form-control" >
         </div>
-        <button type="submit" class="btn panda-btn-style mt-1">Submit</button>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn panda-btn-style mt-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Modal</button>
       </div>
   </section>
   <!--------------------- Subscription End ------------------->
+<!----------------------------Modal -------------------------------------------------------->
+  
 
-  <!-- offer-closebutton-sticky on page start  -->
-  
-    <!-- <div class="offer">
-      <div class=" bg-warning rounded d-flex align-items-center" style="width: 245px; height: 30px;>
-      <p class="border-start border-4 border-primary d-inline " > <i class="bi bi-gift px-2"></i>20% off for the first order.<i class="bi bi-x"></i></p>
-    </div> -->
-  
-  <!-- offer-closebutton-sticky on page end  -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-center" id="exampleModalLabel">Registration Form</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        </form>
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------- Modal End-------------------------------------------------------->
   <!--------------------- Footer Start ------------------->
   <footer>
     <p class=" mt-5 bg-light d-flex align-items-center justify-content-center" style="height:100px"><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
